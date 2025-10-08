@@ -1,7 +1,8 @@
 const idDoConselho = document.querySelector('.titulo');
 const descricaoDoConselho = document.querySelector('.descricao')
 
-document.getElementById('botao').addEventListener('click', pegarConselhos)
+const botao = document.getElementById('botao')
+botao.addEventListener('click', pegarConselhos)
 
 async function pegarConselhos() {
     try {
