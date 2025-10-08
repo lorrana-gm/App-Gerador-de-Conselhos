@@ -1,0 +1,54 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-weight: 800;
+    min-height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao{
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.titulo{
+    color: hsl(150, 100%, 66%);
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.descricao{
+    font-size: 23px;
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    padding: 20px;
+}
+
+#botao{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    transform: translateY(85%);
+}
+
+#botao:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
+.cartao picture img{
+    width: 100%;
+}
